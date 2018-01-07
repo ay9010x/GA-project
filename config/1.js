@@ -34,6 +34,8 @@ var exec = function () {
         ga_mouse_over_event('.facet-checkbox','123');
         ga_mouse_over_event('.menu-trigger','222123');
     ga_mouse_over_event('#product-facet','RWR');
+        ga_mouse_over_event('facet-checkbox.js-facet-checkbox.sr-only','fuckfuckfuck');
+    
        
 
     //表單送出
