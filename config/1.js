@@ -41,8 +41,18 @@ var exec = function () {
     //ga_mouse_over_event('.facet-name','123');
     ga_mouse_over_event('.facet-label','mouse hover item label')
     ga_mouse_over_event('.js-responsive-image','mouse hover image(middle)')  
-    //ga_mouse_over_event('#sortOptions1','mouse hover select box')    
-
+    //ga_mouse_over_event('#sortOptions1','mouse hover select box')
+    ga_mouse_over_event('.sidebar1','mouse hover information label')
+    ga_mouse_over_event('.sidebar2','mouse hover information label') 
+    ga_mouse_over_event('.sidebar3','mouse hover information label')
+    ga_mouse_over_event('.sidebar4','mouse hover information label')
+    ga_mouse_over_event('.sidebar5','mouse hover information label')
+    ga_mouse_over_event('.sidebar6','mouse hover information label')
+    ga_mouse_over_event('.sidebar7','mouse hover information label')
+    ga_mouse_over_event('.sidebar8','mouse hover information label')
+    
+        
+        
         
     //表單送出
     ga_submit_event("form", "submit", function (_ele) {
