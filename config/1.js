@@ -24,16 +24,17 @@ var exec = function () {
     auto_set_user_id();   
 
     //按鈕
-    ga_mouse_click_event("#btn_1","Click Btn_1");
+   /* ga_mouse_click_event("#btn_1","Click Btn_1");
     ga_mouse_click_event(".btn","Click Btn");
     ga_mouse_click_event("#facet_商品分類","Click Btn");  
-
+*/
     //滑鼠滑入滑出
     ga_mouse_over_event(".img","Hover img");
   ga_mouse_over_event("#facet_商品分類","hover"); 
-        ga_mouse_over_event('.facet-checkbox','123')
-        ga_mouse_over_event('.menu-trigger','222123')
-    
+        ga_mouse_over_event('.facet-checkbox','123');
+        ga_mouse_over_event('.menu-trigger','222123');
+    ga_mouse_over_event('#product-facet','RWR');
+       
 
     //表單送出
     ga_submit_event("form", "submit", function (_ele) {
