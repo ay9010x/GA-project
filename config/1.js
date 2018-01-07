@@ -29,25 +29,33 @@ var exec = function () {
     ga_mouse_click_event("#facet_商品分類","Click Btn");
     
 */
-    ga_mouse_click_event('#sortOptions1','Select_Box_sortOptions1_Click')
-    ga_mouse_click_event('.owl-item','Good_Information_Owl-Item_Click')
-    ga_mouse_click_event('.owl-page','Good_Information_Page_Change_Owl-Page_Click')
+    //首頁或其他共通功能
+      
+    //標籤LOGO
+    //標籤LOGO點擊
+    ga_mouse_click_event('#siteLogoContainer','Logo_siteLogoContainer_Click')
+    //標籤LOGO滑動
+    ga_mouse_over_event('#siteLogoContainer','Logo_siteLogoContainer_Hover')
     
+    //首頁活動區塊
+    //首頁活動(優惠商品、新品推薦......等等)點擊
+    ga_mouse_click_event('col-xs-6.col-sm-3.col-md-3','Event_Block_Click')
+    //首頁活動(優惠商品、新品推薦......等等)滑動
+    ga_mouse_over_event('col-xs-6.col-sm-3.col-md-3','Event_Block_Hover')
+        
+    //搜尋框
+    //搜尋框(普通)，滑動
+    ga_mouse_over_event('#js-site-search-input','Search_Box_Input_Hover')
+    //搜尋框(行動)，滑動    
+    ga_mouse_over_event('#searchBoxContainerMobile','Search_Box_Input_Mobile_Hover') 
+    
+    //-----------------------------
         
         
-        
-    //滑鼠滑入滑出
-    ga_mouse_over_event(".img","Hover img");
-    //ga_mouse_over_event("#facet_商品分類","hover"); 
-    //ga_mouse_over_event('.facet-checkbox','123');
-    ga_mouse_over_event('.menu-trigger','222123');
-    //ga_mouse_over_event('#product-facet','RWR');
-    //ga_mouse_over_event('.facet-checkbox.js-facet-checkbox.sr-only','fuckfuckfuck');
-    //ga_mouse_over_event('.facet-mark','123');
-    //ga_mouse_over_event('.facet-name','123');
-    ga_mouse_over_event('.facet-label','Good_Facet_Label_Hover')
-    ga_mouse_over_event('.js-responsive-image','Middle_Image_Hover')  
-    //ga_mouse_over_event('#sortOptions1','mouse hover select box')
+    //自有品牌
+    
+    //認識好市多說明頁面Label
+    //認識好市多說明頁面Label滑動
     ga_mouse_over_event('.sidebar1','Kirkland_Signature_Information_Sidebar1_Hover')
     ga_mouse_over_event('.sidebar2','Kirkland_Signature_Information_Sidebar2_Hover') 
     ga_mouse_over_event('.sidebar3','Kirkland_Signature_Information_Sidebar3_Hover')
@@ -56,10 +64,52 @@ var exec = function () {
     ga_mouse_over_event('.sidebar6','Kirkland_Signature_Information_Sidebar6_Hover')
     ga_mouse_over_event('.sidebar7','Kirkland_Signature_Information_Sidebar7_Hover')
     ga_mouse_over_event('.sidebar8','Kirkland_Signature_Information_Sidebar8_Hover')
-    ga_mouse_over_event('.owl-item','Good_Information_Owl-Item_Hover')
+    //認識好市多說明頁面Label點擊
+    ga_mouse_click_event('.sidebar1','Kirkland_Signature_Information_Sidebar1_Click')
+    ga_mouse_click_event('.sidebar2','Kirkland_Signature_Information_Sidebar2_Click') 
+    ga_mouse_click_event('.sidebar3','Kirkland_Signature_Information_Sidebar3_Click')
+    ga_mouse_click_event('.sidebar4','Kirkland_Signature_Information_Sidebar4_Click')
+    ga_mouse_click_event('.sidebar5','Kirkland_Signature_Information_Sidebar5_Click')
+    ga_mouse_click_event('.sidebar6','Kirkland_Signature_Information_Sidebar6_Click')
+    ga_mouse_click_event('.sidebar7','Kirkland_Signature_Information_Sidebar7_Click')
+    ga_mouse_click_event('.sidebar8','Kirkland_Signature_Information_Sidebar8_Click')
+    
+    //自有品牌介紹圖片滑動
     ga_mouse_over_event('.content','Kirkland_Signature_Information_Hover')
-    ga_mouse_over_event('#js-site-search-input','Search_Box_Input_Hover') 
-    ga_mouse_over_event('#searchBoxContainerMobile','Search_Box_Input_Mobile_Hover') 
+        
+    //-----------------------------
+    
+        
+    //商品
+        
+    //商品介紹資訊區
+    //商品介紹資訊區塊滑動
+    ga_mouse_over_event('.owl-item','Good_Information_Owl-Item_Hover')
+    //商品介紹資訊區塊點擊
+    ga_mouse_click_event('.owl-item','Good_Information_Owl-Item_Click')
+        
+    //商品篩選標籤
+    //商品篩選標籤滑動
+    ga_mouse_over_event('.facet-label','Good_Facet_Label_Hover')
+    //商品篩選標籤點擊
+    ga_mouse_Click_event('.facet-label','Good_Facet_Label_Click')
+        
+    //商品分類(第二層標籤)的頁面相關
+    //商品分類(第二層標籤)置中介紹的圖片，滑動
+    ga_mouse_over_event('.js-responsive-image','Middle_AdImage_Hover')
+    //商品分類(第二層標籤)置中介紹的圖片，點擊
+    ga_mouse_click_event('.js-responsive-image','Middle_AdImage_Click')
+        
+    //商品推薦介紹頁面切換點擊(灰色小點)
+    ga_mouse_click_event('.owl-page','Good_Information_Page_Change_Owl-Page_Click')
+        
+    //-----------------------------
+        
+        
+
+       
+    
+
 
         
     //ga_mouse_over_event()    
