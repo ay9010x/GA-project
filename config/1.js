@@ -33,9 +33,9 @@ var exec = function () {
     ga_mouse_over_event("#facet_商品分類","hover"); 
     ga_mouse_over_event('.facet-checkbox','123');
     ga_mouse_over_event('.menu-trigger','222123');
-    ga_mouse_over_event('#product-facet','RWR');
-    ga_mouse_over_event('facet-checkbox.js-facet-checkbox.sr-only','fuckfuckfuck');
-    
+    //ga_mouse_over_event('#product-facet','RWR');
+    ga_mouse_over_event('.facet-checkbox.js-facet-checkbox.sr-only','fuckfuckfuck');
+    ga_mouse_over_event('.facet-mark','123');
        
 
     //表單送出
