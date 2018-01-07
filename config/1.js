@@ -115,8 +115,18 @@ var exec = function () {
     //商品介紹資訊區(詳式，具比較產品按鈕)
     //商品介紹資訊區塊(詳式，具比較產品按鈕)滑動
     ga_mouse_over_event('.product-item.vline','Good_Information_Normal_product-item.vline_Hover')
-    //商品介紹資訊區塊(詳式，具比較產品按鈕)點擊
-    ga_mouse_click_event('.product-item.vline','Good_Information_Normal_product-item.vline_Click')
+    //商品介紹資訊圖片(詳式，具比較產品按鈕)點擊
+    ga_mouse_click_event('.product-image','Good_Information_Picture_Normal_product-image_Click')
+    //商品介紹資訊文字(詳式，具比較產品按鈕)點擊
+    ga_mouse_click_event('.product-list-details','Good_Information_Text_Normal_product-list-details_Click')
+    //商品介紹資訊比較產品按鈕(詳式，具比較產品按鈕)點擊
+    ga_mouse_click_event('.product-compare-checkbox__label','Good_Information_Text_Porduct_Compare_product-compare-checkbox__label_Click')
+    
+        
+        //商品介紹資訊區塊(詳式，具比較產品按鈕)點擊作廢
+        //ga_mouse_click_event('.product-item.vline','Good_Information_Normal_product-item.vline_Click')
+        
+    
     
         
     //商品篩選標籤
