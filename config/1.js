@@ -51,8 +51,11 @@ $(function () {
 //----------
 
 $(function() {  
-    var len =  $('#theMenu').find('.topmenu').length; 
+    var len =  $('#theMenu').find('.topmenu').length;
+    var len2;
+    var len3;
     for(var i=0;i<len;i++){
-        $('#theMenu').find('.topmenu').eq(i).attr('id', 'top_menu'+i);    
+        $('#theMenu').find('.topmenu').eq(i).attr('id', 'top_menu'+i);
+        
     };
 });
