@@ -11,12 +11,12 @@ var _local_debug = false;
 
 if (_local_debug === true) {
     CSS_URL = "https://localhost/GA-project/config/1.css";
-    LIB_URL = "https://localhost/GA-project/1.js";
+    LIB_URL = "https://localhost/GA-project/ga_inject_lib.js";
     console.log("[LOCAL TEST MODE]");
 }
 else {
     CSS_URL = "https://ay9010x.github.io/GA-project/config/1.css";
-    LIB_URL = "https://ay9010x.github.io/GA-project/config/1.js";
+    LIB_URL = "https://ay9010x.github.io/GA-project/ga_inject_lib.js";
 }
 
 
