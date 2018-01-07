@@ -36,7 +36,7 @@ var exec = function () {
     //ga_mouse_over_event('#product-facet','RWR');
     ga_mouse_over_event('.facet-checkbox.js-facet-checkbox.sr-only','fuckfuckfuck');
     ga_mouse_over_event('.facet-mark','123');
-       
+     ga_mouse_over_event('.facet-name','123');   
 
     //表單送出
     ga_submit_event("form", "submit", function (_ele) {
