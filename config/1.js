@@ -92,7 +92,7 @@ var exec = function () {
     //商品篩選標籤滑動
     ga_mouse_over_event('.facet-label','Good_Facet_Label_Hover')
     //商品篩選標籤點擊
-    ga_mouse_Click_event('.facet-label','Good_Facet_Label_Click')
+    ga_mouse_click_event('.facet-label','Good_Facet_Label_Click')
         
     //商品分類(第二層標籤)的頁面相關
     //商品分類(第二層標籤)置中介紹的圖片，滑動
