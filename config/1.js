@@ -29,7 +29,9 @@ var exec = function () {
     ga_mouse_click_event("#facet_商品分類","Click Btn");
     
 */
-    ga_mouse_click_event('#sortOptions1','mouse click select box')    
+    ga_mouse_click_event('#sortOptions1','mouse click select box')  
+    ga_mouse_click_event('owl-item','mouse click select dot') 
+        
     //滑鼠滑入滑出
     ga_mouse_over_event(".img","Hover img");
     //ga_mouse_over_event("#facet_商品分類","hover"); 
