@@ -31,6 +31,7 @@ var exec = function () {
     //滑鼠滑入滑出
     ga_mouse_over_event(".img","Hover img");
   ga_mouse_over_event("#facet_商品分類","hover"); 
+        ga_mouse_over_event('.facet-checkbox.js-facet-checkbox.sr-only','123')
     
 
     //表單送出
