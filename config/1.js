@@ -59,7 +59,7 @@ var exec = function () {
     ga_mouse_over_event('.owl-item','Good_Information_Owl-Item_Hover')
     ga_mouse_over_event('.content','Kirkland_Signature_Information_Hover')
     ga_mouse_over_event('#js-site-search-input','Search_Box_Input_Hover') 
-    
+    ga_mouse_over_event('#searchBoxContainerMobile','Search_Box_Input_Mobile_Hover') 
 
         
     //ga_mouse_over_event()    
