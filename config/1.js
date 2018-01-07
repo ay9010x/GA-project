@@ -30,6 +30,8 @@ var exec = function () {
 
     //滑鼠滑入滑出
     ga_mouse_over_event(".img","Hover img");
+    ga_mouse_over_event("#list-view-id","fuckyou");
+    
 
     //表單送出
     ga_submit_event("form", "submit", function (_ele) {
