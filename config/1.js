@@ -26,8 +26,10 @@ var exec = function () {
     //按鈕
    /* ga_mouse_click_event("#btn_1","Click Btn_1");
     ga_mouse_click_event(".btn","Click Btn");
-    ga_mouse_click_event("#facet_商品分類","Click Btn");  
+    ga_mouse_click_event("#facet_商品分類","Click Btn");
+    
 */
+    ga_mouse_click_event('#sortOptions1','mouse click select box')    
     //滑鼠滑入滑出
     ga_mouse_over_event(".img","Hover img");
     //ga_mouse_over_event("#facet_商品分類","hover"); 
@@ -39,7 +41,7 @@ var exec = function () {
     //ga_mouse_over_event('.facet-name','123');
     ga_mouse_over_event('.facet-label','mouse hover item label')
     ga_mouse_over_event('.js-responsive-image','mouse hover image(middle)')  
-    ga_mouse_over_event('#sortOptions1','mouse hover select box')    
+    //ga_mouse_over_event('#sortOptions1','mouse hover select box')    
 
         
     //表單送出
