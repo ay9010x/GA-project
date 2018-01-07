@@ -112,7 +112,11 @@ var exec = function () {
     ga_mouse_click_event('.owl-item','Good_Information_Simple_owl-item_Click')
      */   
     
-    
+    //商品介紹資訊區(簡式，無比較產品按鈕)
+    //商品介紹資訊區塊(簡式，無比較產品按鈕)滑動
+    ga_mouse_over_event('.item.product-item ','Good_Information_Simple_.item.product-item_Hover')
+    //商品介紹資訊區塊(簡式，無比較產品按鈕)點擊
+    ga_mouse_click_event('.item.product-item' ,'Good_Information_Simple_.item.product-item_Click')
     
     
     //商品介紹資訊區(詳式，具比較產品按鈕)
