@@ -60,15 +60,15 @@ var exec = function () {
         
     //首頁活動區塊
     //首頁活動(優惠商品、新品推薦......等等)點擊
-    ga_mouse_click_event('.col-xs-6.col-sm-3.col-md-3','Event_Block_Click')
+    ga_mouse_click_event('.col-xs-6.col-sm-3.col-md-3','Event_Block_col-xs-6.col-sm-3.col-md-3_Click')
     //首頁活動(優惠商品、新品推薦......等等)滑動
-    ga_mouse_over_event('.col-xs-6.col-sm-3.col-md-3','Event_Block_Hover')
+    ga_mouse_over_event('.col-xs-6.col-sm-3.col-md-3','Event_Block_col-xs-6.col-sm-3.col-md-3_Hover')
         
     //搜尋框
     //搜尋框(普通)，滑動
-    ga_mouse_over_event('#js-site-search-input','Search_Box_Input_Hover')
+    ga_mouse_over_event('#js-site-search-input','Search_Box_Input_js-site-search-input_Hover')
     //搜尋框(行動)，滑動    
-    ga_mouse_over_event('#searchBoxContainerMobile','Search_Box_Input_Mobile_Hover') 
+    ga_mouse_over_event('#searchBoxContainerMobile','Search_Box_Input_Mobile_js-site-search-input_Hover') 
     
     //-----------------------------
         
@@ -106,9 +106,9 @@ var exec = function () {
         
     //商品介紹資訊區(簡式，無比較產品按鈕)
     //商品介紹資訊區塊(簡式，無比較產品按鈕)滑動
-    ga_mouse_over_event('.owl-item','Good_Information_Simple_Owl-Item_Hover')
+    ga_mouse_over_event('.owl-item','Good_Information_Simple_owl-item_Hover')
     //商品介紹資訊區塊(簡式，無比較產品按鈕)點擊
-    ga_mouse_click_event('.owl-item','Good_Information_Simple_Owl-Item_Click')
+    ga_mouse_click_event('.owl-item','Good_Information_Simple_owl-item_Click')
     
     
     
@@ -121,34 +121,32 @@ var exec = function () {
     ga_mouse_click_event('.product-list-details','Good_Information_Text_Normal_product-list-details_Click')
     //商品介紹資訊比較產品按鈕(詳式，具比較產品按鈕)點擊
     ga_mouse_click_event('.product-compare-checkbox__label','Good_Information_Text_Porduct_Compare_product-compare-checkbox__label_Click')
-    
-        
-        //商品介紹資訊區塊(詳式，具比較產品按鈕)點擊作廢
-        //ga_mouse_click_event('.product-item.vline','Good_Information_Normal_product-item.vline_Click')
+    //商品介紹資訊區塊(詳式，具比較產品按鈕)點擊，作廢
+    //ga_mouse_click_event('.product-item.vline','Good_Information_Normal_product-item.vline_Click')
         
     
     
         
     //商品篩選標籤
     //商品篩選標籤滑動
-    ga_mouse_over_event('.facet-label','Good_Facet_Label_Hover')
+    ga_mouse_over_event('.facet-label','Good_facet-label_Hover')
     //商品篩選標籤點擊
-    ga_mouse_click_event('.facet-label','Good_Facet_Label_Click')
+    ga_mouse_click_event('.facet-label','Good_facet-label_Click')
         
     //商品分類(第二層標籤)的頁面相關
     //商品分類(第二層標籤)置中介紹的圖片，滑動
-    ga_mouse_over_event('.js-responsive-image','II_Middle_AdImage_Hover')
+    ga_mouse_over_event('.js-responsive-image','Middle_AdImage_js-responsive-image_Hover')
     //商品分類(第二層標籤)置中介紹的圖片，點擊
-    ga_mouse_click_event('.js-responsive-image','II_Middle_AdImage_Click')
+    ga_mouse_click_event('.js-responsive-image','Middle_AdImage_js-responsive-image_Click')
         
     //商品分類(第二層標籤)產品類別，滑動
-    ga_mouse_over_event('.category-node','II_Middle_AdImage_Hover')
+    ga_mouse_over_event('.category-node','iddle_AdImage_category-node_Hover')
     //商品分類(第二層標籤)產品類別，點擊
-    ga_mouse_click_event('.category-node','II_Middle_AdImage_Click')
+    ga_mouse_click_event('.category-node','Middle_AdImage_category-node_Click')
         
     
     //商品推薦介紹頁面切換點擊(灰色小點)
-    ga_mouse_click_event('.owl-page','Good_Information_Page_Change_Owl-Page_Click')
+    ga_mouse_click_event('.owl-page','Good_Information_Page_Change_owl-page_Click')
         
     //-----------------------------
         
