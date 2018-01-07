@@ -96,10 +96,16 @@ var exec = function () {
         
     //商品分類(第二層標籤)的頁面相關
     //商品分類(第二層標籤)置中介紹的圖片，滑動
-    ga_mouse_over_event('.js-responsive-image','Middle_AdImage_Hover')
+    ga_mouse_over_event('.js-responsive-image','II_Middle_AdImage_Hover')
     //商品分類(第二層標籤)置中介紹的圖片，點擊
-    ga_mouse_click_event('.js-responsive-image','Middle_AdImage_Click')
+    ga_mouse_click_event('.js-responsive-image','II_Middle_AdImage_Click')
         
+    //商品分類(第二層標籤)產品類別，滑動
+    ga_mouse_over_event('.category-node','II_Middle_AdImage_Hover')
+    //商品分類(第二層標籤)產品類別，點擊
+    ga_mouse_click_event('.category-node','II_Middle_AdImage_Click')
+        
+    
     //商品推薦介紹頁面切換點擊(灰色小點)
     ga_mouse_click_event('.owl-page','Good_Information_Page_Change_Owl-Page_Click')
         
