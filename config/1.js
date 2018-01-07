@@ -30,7 +30,7 @@ var exec = function () {
     
 */
     ga_mouse_click_event('#sortOptions1','Select_Box_sortOptions1_Click')
-    ga_mouse_click_event('.owl-item','Item_Information_Owl-Item_Click')
+    ga_mouse_click_event('.owl-item','Good_Information_Owl-Item_Click')
     
         
     //滑鼠滑入滑出
@@ -42,7 +42,7 @@ var exec = function () {
     //ga_mouse_over_event('.facet-checkbox.js-facet-checkbox.sr-only','fuckfuckfuck');
     //ga_mouse_over_event('.facet-mark','123');
     //ga_mouse_over_event('.facet-name','123');
-    ga_mouse_over_event('.facet-label','Item_Facet_Label_Hover')
+    ga_mouse_over_event('.facet-label','Good_Facet_Label_Hover')
     ga_mouse_over_event('.js-responsive-image','Middle_Image_Hover')  
     //ga_mouse_over_event('#sortOptions1','mouse hover select box')
     ga_mouse_over_event('.sidebar1','Kirkland_Signature_Information_Sidebar1_Hover')
@@ -53,7 +53,7 @@ var exec = function () {
     ga_mouse_over_event('.sidebar6','Kirkland_Signature_Information_Sidebar6_Hover')
     ga_mouse_over_event('.sidebar7','Kirkland_Signature_Information_Sidebar7_Hover')
     ga_mouse_over_event('.sidebar8','Kirkland_Signature_Information_Sidebar8_Hover')
-    ga_mouse_over_event('.owl-item','Item_Information_Owl-Item_Hover')
+    ga_mouse_over_event('.owl-item','Good_Information_Owl-Item_Hover')
     
         
         
