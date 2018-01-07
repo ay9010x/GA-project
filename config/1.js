@@ -39,9 +39,9 @@ var exec = function () {
     
     //首頁橫幅廣告
     //首頁橫幅廣告點擊
-    ga_mouse_click_event('.owl-wrapper','Home_Banner_owl-wrapper_Click')
+    ga_mouse_click_event('.owl-wrapper-outer','Home_Banner_owl-wrapper-outer_Click')
     //首頁橫幅廣告滑動
-    ga_mouse_over_event('.owl-wrapper','Home_Banner_owl-wrapper_Hover')
+    ga_mouse_over_event('.owl-wrapper-outer','Home_Banner_owl-wrapper-outer_Hover')
     //首頁橫幅廣告右箭頭紐點擊
     ga_mouse_click_event('.owl-next','Good_Information_Simple_Left_owl-next_Click')
     //首頁橫幅廣告左箭頭紐點擊
