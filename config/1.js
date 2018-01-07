@@ -46,3 +46,13 @@ $(function () {
         });
     });
 });
+
+
+//----------
+
+$(function() {  
+    var len =  $('#theMenu').find('.topmenu').length; 
+    for(var i=0;i<len;i++){
+        $('#theMenu').find('.topmenu').eq(i).attr('id', 'top_menu'+i);    
+    };
+});
