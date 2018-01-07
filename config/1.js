@@ -75,7 +75,8 @@ var exec = function () {
     ga_mouse_click_event('.sidebar8','Kirkland_Signature_Information_Sidebar8_Click')
     
     //自有品牌介紹圖片滑動
-    ga_mouse_over_event('.content','Kirkland_Signature_Information_Hover')
+    //作廢，會產生衝突1.7.19:02
+    //ga_mouse_over_event('.content','Kirkland_Signature_Information_Hover')
         
     //-----------------------------
     
