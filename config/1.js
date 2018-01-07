@@ -37,8 +37,11 @@ var exec = function () {
     //ga_mouse_over_event('.facet-checkbox.js-facet-checkbox.sr-only','fuckfuckfuck');
     //ga_mouse_over_event('.facet-mark','123');
     //ga_mouse_over_event('.facet-name','123');
-    ga_mouse_over_event('.facet-label','123')    
+    ga_mouse_over_event('.facet-label','mouse hover item label')
+    ga_mouse_over_event('.js-responsive-image','mouse hover image(middle)')  
+    ga_mouse_over_event('#sortOptions1','mouse hover select box')    
 
+        
     //表單送出
     ga_submit_event("form", "submit", function (_ele) {
         return _ele.text();});
