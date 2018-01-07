@@ -37,6 +37,16 @@ var exec = function () {
     //標籤LOGO滑動
     ga_mouse_over_event('#siteLogoContainer','Logo_siteLogoContainer_Hover')
     
+    //首頁大標
+    //首頁大標點擊
+    ga_mouse_click_event('#FEATUREDPRODUCTSTitle','Home_Title_FEATUREDPRODUCTSTitle_Click')
+    ga_mouse_click_event('#BuyerPickTitle','Home_Title_BuyerPickTitle_Click')
+    ga_mouse_click_event('#WHATSNEWTitle','Home_Title_WHATSNEWTitle_Click')
+    //首頁大標滑動
+    ga_mouse_over_event('#FEATUREDPRODUCTSTitle','Home_Title_FEATUREDPRODUCTSTitle_Hover')
+    ga_mouse_over_event('#BuyerPickTitle','Home_Title_BuyerPickTitle_Hover')
+    ga_mouse_over_event('#WHATSNEWTitle','Home_Title_WHATSNEWTitle_Hover')
+        
     //首頁活動區塊
     //首頁活動(優惠商品、新品推薦......等等)點擊
     ga_mouse_click_event('col-xs-6.col-sm-3.col-md-3','Event_Block_Click')
@@ -83,11 +93,18 @@ var exec = function () {
         
     //商品
         
-    //商品介紹資訊區
-    //商品介紹資訊區塊滑動
+    //商品介紹資訊區(簡式，無比較產品按鈕)
+    //商品介紹資訊區塊(簡式，無比較產品按鈕)滑動
     ga_mouse_over_event('.owl-item','Good_Information_Owl-Item_Hover')
-    //商品介紹資訊區塊點擊
+    //商品介紹資訊區塊(簡式，無比較產品按鈕)點擊
     ga_mouse_click_event('.owl-item','Good_Information_Owl-Item_Click')
+    
+    //商品介紹資訊區(詳式，具比較產品按鈕)
+    //商品介紹資訊區塊(詳式，具比較產品按鈕)滑動
+    ga_mouse_over_event('.product-item.vline','Good_Information_product-item.vline_Hover')
+    //商品介紹資訊區塊(詳式，具比較產品按鈕)點擊
+    ga_mouse_click_event('.product-item.vline','Good_Information_product-item.vline_Click')
+    
         
     //商品篩選標籤
     //商品篩選標籤滑動
