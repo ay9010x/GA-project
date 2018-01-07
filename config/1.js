@@ -60,9 +60,9 @@ var exec = function () {
         
     //首頁活動區塊
     //首頁活動(優惠商品、新品推薦......等等)點擊
-    ga_mouse_click_event('col-xs-6.col-sm-3.col-md-3','Event_Block_Click')
+    ga_mouse_click_event('.col-xs-6.col-sm-3.col-md-3','Event_Block_Click')
     //首頁活動(優惠商品、新品推薦......等等)滑動
-    ga_mouse_over_event('col-xs-6.col-sm-3.col-md-3','Event_Block_Hover')
+    ga_mouse_over_event('.col-xs-6.col-sm-3.col-md-3','Event_Block_Hover')
         
     //搜尋框
     //搜尋框(普通)，滑動
